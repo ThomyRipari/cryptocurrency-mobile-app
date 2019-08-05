@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 
 /* Import Components */
 import Header from './components/Header/Header';
+import CryptoContainer from './components/Container/CryptoContainer';
 
 /* Import Store */
 import Store from './Store/Store';
@@ -13,7 +14,7 @@ const App = () => {
 		<Provider store={Store}>
 			<View>
 				<Header />
-				<Text>HELLO</Text>
+				<CryptoContainer />
 			</View>
 		</Provider>
 	)
