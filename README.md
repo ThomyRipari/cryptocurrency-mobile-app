@@ -1,1 +1,0 @@
-cryptocurrency-mobile-app
